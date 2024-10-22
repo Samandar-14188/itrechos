@@ -6,6 +6,7 @@ import human1 from "../../assets/human1.png";
 import human2 from "../../assets/human2.png";
 import { MdOutlinePlayCircle } from "react-icons/md";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function Homepage() {
   useEffect(() => {
@@ -41,16 +42,16 @@ function Homepage() {
       <div className="homepage">
         <div className="home-header">
           <div className="logo">
-            <a href="/">
+            <Link to="/">
               <img src={Logo} alt="logotip" />
-            </a>
+            </Link>
           </div>
           <div className="header-menu">
-            <a href="/">Home</a>
-            <a href="#">Services</a>
-            <a href="#">Pages</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact</a>
+            <Link to="/">Home</Link>
+            <Link to="services">Services</Link>
+            <Link to="pages">Pages</Link>
+            <Link to="blog">Blog</Link>
+            <Link to="concat">Contact</Link>
             <div className="header-span">
               <FaPhoneAlt />
               <p>+49 30 9846565</p>
