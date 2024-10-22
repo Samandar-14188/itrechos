@@ -45,7 +45,7 @@ function Services() {
               <p>
                 Assertively streamline interactive interfaces after value-added
                 infrastructures. Authoritatively fabricate fully tested
-                methodologies before.{" "}
+                methodologies before.
               </p>
             </div>
           </div>
